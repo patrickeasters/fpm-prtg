@@ -39,6 +39,6 @@ func main() {
             os.Exit(1)
     }
     if(string(content) == "pong"){
-        fmt.Println("ok")
+        fmt.Println("0")
     }
 }
