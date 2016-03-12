@@ -42,6 +42,6 @@ func main() {
 
     // php-fpm is configured to return "pong" when the /ping script is called
     if(string(content) == "pong"){
-        fmt.Print(0)
+        fmt.Print("0:ok")
     }
 }
